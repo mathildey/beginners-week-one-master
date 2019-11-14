@@ -1,0 +1,14 @@
+div.box {
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  background-color: red;
+  transition-duration: 500ms;
+  transition-property: width, background-color;
+}
+
+div.box:hover {
+  width: 500px;
+  background-color: pink;
+  border-radius: 45%;
+}
